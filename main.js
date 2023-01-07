@@ -64,7 +64,7 @@ let res
   $(function () {
     $('[data-toggle="popover"]').popover()
   })
-  console.log("https://github.com/xramas/urlcreate/")
+  console.log("LOG")
   let notice="Notice: This service is for demonstration purposes only and the generated short links will automatically expire after 24 hours."
   if(window.location.host=="a.cn"){
     document.getElementById("notice").innerHTML=notice
